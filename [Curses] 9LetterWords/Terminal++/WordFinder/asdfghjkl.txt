@@ -1,0 +1,27 @@
+Please read the Wordlist file for all the copyright details.
+Letters Are: asdfghjkl. The line numbers will be 10 higher then the found word count.
+///////////
+//       //
+//  asd  //
+//  fgh  //
+//  jkl  //
+//       //
+///////////
+dag
+fag
+flag
+gad
+gal
+gas
+gash
+glad
+gs
+hag
+jag
+jg
+kg
+lag
+lg
+sag
+shag
+slag

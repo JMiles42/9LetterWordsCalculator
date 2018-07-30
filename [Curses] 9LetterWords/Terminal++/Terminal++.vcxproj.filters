@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Terminal++">
+      <UniqueIdentifier>{e81d08b8-d644-47df-897f-a1feeacecab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDCurses">
+      <UniqueIdentifier>{9d136f02-5abe-47c2-abc1-4ed36d914c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\9LetterWords">
+      <UniqueIdentifier>{a052cc0b-c4bb-4840-add2-e6130a35f0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\9LetterWords">
+      <UniqueIdentifier>{49a11831-59c0-48ed-86b7-8b6f00c641e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="terminal.cpp">
+      <Filter>Terminal++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\addch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\addchstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\addstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\attr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\beep.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\bkgd.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\border.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\clear.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\color.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\debug.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\delch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\deleteln.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\deprec.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\getch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\getstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\getyx.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\inch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\inchstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\initscr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\inopts.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\insch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\insstr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\instr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\kernel.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\keyname.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\mouse.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\move.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\outopts.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\overlay.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\pad.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\panel.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\printw.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\refresh.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\scanw.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\scr_dump.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\scroll.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\slk.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\termattr.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\terminfo.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\touch.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\util.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\pdcurses\window.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcclip.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcdisp.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcgetsc.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdckbd.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcscrn.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcsetsc.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pdcurs34\win32\pdcutil.c">
+      <Filter>PDCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="entryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWindowWithBorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NineLetters\NineLetterWords.cpp">
+      <Filter>Source Files\9LetterWords</Filter>
+    </ClCompile>
+    <ClCompile Include="NineLetters\stdafx.cpp">
+      <Filter>Source Files\9LetterWords</Filter>
+    </ClCompile>
+    <ClCompile Include="NineLetters\FIleIO.cpp">
+      <Filter>Source Files\9LetterWords</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="terminal.h">
+      <Filter>Terminal++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pdcurs34\curses.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pdcurs34\curspriv.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pdcurs34\panel.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pdcurs34\term.h">
+      <Filter>PDCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWindowWithBorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NineLetters\stdafx.h">
+      <Filter>Header Files\9LetterWords</Filter>
+    </ClInclude>
+    <ClInclude Include="NineLetters\FIleIO.h">
+      <Filter>Header Files\9LetterWords</Filter>
+    </ClInclude>
+    <ClInclude Include="NineLetters\NineLetterWords.h">
+      <Filter>Header Files\9LetterWords</Filter>
+    </ClInclude>
+    <ClInclude Include="NeededUniversalHeader.h">
+      <Filter>Header Files\9LetterWords</Filter>
+    </ClInclude>
+    <ClInclude Include="LogMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

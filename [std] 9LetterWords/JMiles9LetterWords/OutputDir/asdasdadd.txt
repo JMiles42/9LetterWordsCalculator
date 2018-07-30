@@ -1,0 +1,9 @@
+Please read the Wordlist file for all the copyright details.
+Letters Are:asdasdadd. The line numbers will be 10 higher then the found word count.
+///////////
+//       //
+//  asd  //
+//  asd  //
+//  add  //
+//       //
+///////////
